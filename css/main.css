@@ -46,3 +46,58 @@ nav .nav-right-section img{
     height: 32px;
     margin-left: 10px;
 }
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo img{
+    width: 300px;
+  
+}
+main .main-input{
+    width:530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #5f248a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #BA55D3;
+    border-color: #31084e;
+}
+main .main-input .search-icon{
+    background-image:url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    cursor: pointer; 
+}
+main .main-input .bar-icon{
+    background-image:url('kanyeface.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
